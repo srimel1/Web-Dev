@@ -1,0 +1,17 @@
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <H2>
+    Formatting Text
+  </H2>
+</head>
+<body>
+<ul>
+  <li>Monday</li>
+  <li>Tuesday</li>
+  <li>Wednesday</li>
+</ul>
+</pre>
+</body>
+</html>
+

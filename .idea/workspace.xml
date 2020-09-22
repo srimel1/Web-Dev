@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8f60bbab-d563-4e90-b2a4-28328436d470" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ani.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filethree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filetwo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/format.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/format2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/format2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myStyle.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hXOhdGVvREhHdEiVbQVusuiQ4m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Stephanie\PhpstormProjects\untitled" />
+      <recent name="C:\Users\Stephanie\PhpstormProjects\WebProgramming" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f60bbab-d563-4e90-b2a4-28328436d470" name="Default Changelist" comment="" />
+      <created>1600154090269</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600154090269</updated>
+      <workItem from="1600154091339" duration="1505000" />
+      <workItem from="1600155607291" duration="1746000" />
+      <workItem from="1600727894390" duration="13887000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="669" y="278" width="659" height="268" key="#Vim_Emulation" timestamp="1600155757091">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="669" y="278" width="659" height="268" key="#Vim_Emulation/0.0.1536.824@0.0.1536.824" timestamp="1600155757091" />
+    <state x="225" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600156591546">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="225" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1600156591546" />
+    <state x="1100" y="335" key="FileChooserDialogImpl" timestamp="1600156708873">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="1100" y="335" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600156708873" />
+    <state x="0" y="621" key="Github.ShareDialog" timestamp="1600741705004">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="621" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1600741705004" />
+    <state x="574" y="118" key="Github.UntrackedFilesDialog" timestamp="1600741714108">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="118" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600741714108" />
+    <state x="244" y="115" key="SettingsEditor" timestamp="1600155805565">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="244" y="115" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600155805565" />
+    <state x="94" y="94" width="1349" height="637" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600741164023">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="94" y="94" width="1349" height="637" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1600741164023" />
+    <state x="0" y="0" width="1158" height="572" key="dock-window-1" timestamp="1600156523891">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" width="1158" height="572" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1600156523891" />
+    <state x="336" y="243" key="run.anything.popup" timestamp="1600740167407">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="336" y="243" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1600740167407" />
+    <state x="397" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1600155796903">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="397" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1600155796903" />
+  </component>
+</project>
