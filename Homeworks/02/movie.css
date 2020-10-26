@@ -1,0 +1,146 @@
+/***
+Stephanie Rimel
+Homework 02
+Web Programming
+Fall 2020
+ */
+
+body {
+    background-image: url(background.png);
+    background-repeat: repeat;
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+#banner {
+    background-image: url(bannerbackground.png);
+    background-repeat: repeat-x;
+}
+
+#banner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+#content {
+    width: 800px;
+    border: 4px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+#left {
+    float: left;
+    width: 550px;
+}
+
+#overall {
+    background-image: url(rottenbackground.png);
+    background-repeat: repeat-x;
+}
+
+#ratings {
+    color: white;
+    vertical-align: 15px;
+}
+
+#percentage {
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+}
+
+#left-col {
+    width: 47%;
+    float: left;
+    margin-left: 2%;
+}
+
+#right-col {
+    width: 47%;
+    float: left;
+    margin-left: 2%;
+}
+
+.space {
+    padding-left: 10px;
+}
+
+.quote {
+    font-weight: bold;
+    background-color: #E1D697;
+    border: 2px solid gray;
+    padding: 8px;
+    overflow: auto;
+}
+
+.quote img {
+    float: left;
+    margin-right: 5px;
+}
+
+.quoter {
+    font-style: italic;
+    overflow: auto;
+}
+
+.review {
+    margin-bottom: 3em;
+}
+
+.quoter img {
+    float: left;
+    margin-right: 5px;
+    vertical-align: top;
+}
+
+#right {
+    float: right;
+    width: 250px;
+    background-color: #A2B964;
+    font-family: Arial, sans-serif;
+}
+
+
+dl {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+
+#footer {
+    clear: both;
+    text-align: center;
+    background-color: #A2B964;
+    margin-bottom: 0;
+    padding: 5px;
+}
+
+
+#validator1 {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    opacity: 0.5;
+}
+
+#validator2 {
+    position: fixed;
+    bottom: 0px;
+    right: 80px;
+    opacity: 0.5;
+}

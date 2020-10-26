@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+html,
+
+
+
+
+body {
+    background-image: url("http://codd.cs.gsu.edu/~srimel1/background.jpg");
+    background-size: cover;
+    margin: 0;
+    /*header*/
+
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+    background-color: black;
+}
+
+.resize {
+    max-width:25%;
+    max-height:25%;
+}
+
+@font-face {
+    font-family: neon;
+    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+}
+
+/*.container {*/
+/*    margin: 20px;*/
+/*    display: table-cell;*/
+/*    text-align: center;*/
+/*    vertical-align: middle;*/
+/*}*/
+
+.neon {
+    font-family: neon;
+    color: #ec0ae1;
+    font-size: 7vw;
+    line-height: 7vw;
+    text-shadow: 0 0 3vw #620a45;
+    margin: 20px;
+}
+
+.flux {
+    font-family: neon;
+    color: #3cb6d4;
+    font-size: 7vw;
+    line-height: 7vw;
+    text-shadow: 0 0 3vw #2356FF;
+    margin: 20px;
+}
+
+.neon {
+    animation: neon 1s ease infinite;
+    -moz-animation: neon 1s ease infinite;
+    -webkit-animation: neon 1s ease infinite;
+}
+
+@keyframes neon {
+    0%,
+    100% {
+        text-shadow: 0 0 1vw #620a45, 0 0 3vw #620a45, 0 0 10vw #620a45, 0 0 10vw #620a45, 0 0 .4vw #620a45, .5vw .5vw .1vw #620a45;
+        color: #cf95e3;
+    }
+    50% {
+        text-shadow: 0 0 .5vw #ae21c8, 0 0 1.5vw #ae21c8, 0 0 5vw #ae21c8, 0 0 5vw #ae21c8, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+        color: #c76bdd;
+    }
+}
+
+.flux {
+    animation: flux 2s linear infinite;
+    -moz-animation: flux 2s linear infinite;
+    -webkit-animation: flux 2s linear infinite;
+    -o-animation: flux 2s linear infinite;
+}
+
+@keyframes flux {
+    0%,
+    100% {
+        text-shadow: 0 0 1vw #4c2ff3, 0 0 3vw #4c2ff3, 0 0 10vw #4c2ff3, 0 0 10vw #4c2ff3, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
+        color: #28D7FE;
+    }
+    50% {
+        text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
+        color: #146C80;
+    }
+}
+
+
+
+/*header*/
+
+
+
+
+
+.content {
+    margin: 20px;
+}
+a:hover {
+    color: #1c998e;
+}
+
+.header {
+    background-image:url("http://codd.cs.gsu.edu/~srimel1/background.jpg");
+    background-size: cover;
+    text-align: left;
+    font-size: 15px;
+    padding: 1px;
+    color: #883997;
+}
+
+.navigation {
+    background-color: #883997;
+    width: 100%;
+    height: 75px;
+    margin:0;
+}
+
+.navigation ul {
+    float: left
+}
+
+.navigation ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+    display: inline;
+    padding-right: 25px;
+}
+
+.navigation ul li a {
+    color: #ee98fb;
+    font-size: 20px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    display: block;
+    margin:0;
+}
+
+.navigation ul li a.active{
+    color: #ba68c8;
+    margin:0;
+}
+
+.navigation ul li ul {
+    position: absolute;
+    background-color: #ee98fb;
+    padding:50px;
+    display:none;
+}
+
+.navigation ul li:hover ul {
+    position: absolute;
+    background-color: #524ca4;
+    padding:0;
+    display:block;
+}
+
+.navigation ul li ul li {
+    width: 160px;
+}
+
+.navigation ul li ul li a {
+    padding: 8px 14px;
+    color: #1d2474;
+
+}
+.navigation ul li ul li a:hover {
+    width: 160px;
+    color: grey;
+
+}
+
+.intro {
+    background-color: #ee98fb;
+    float: left;
+    width: 75%;
+    padding: 20px;
+    margin: 10px 50px 10px 0px;
+    border: 1px solid black;
+    color: #883997;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+}
+
+.images{
+    margin: 10px;
+    padding: 10px;
+}
+
+.images ul li{
+    margin: 20px;
+    display: inline;
+}
+
+img {
+    position: relative;
+}
+
+.footer{
+    background-color: #883997;
+    float: left;
+    color: #ee98fb;
+    width: 100%;
+    padding: 20px;
+}
+
+
+.footer a{
+    text-decoration: none;
+    color: #883997;
+}

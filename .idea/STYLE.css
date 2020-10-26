@@ -1,0 +1,23 @@
+
+body{background-color:chocolate;
+    font-family:"arial";
+    font-weight:bold;}
+
+h1.artist{color:moccasin;font-size:14pt;}
+h1.songtitle{color:khaki;font-size:14pt;font-weight:normal;}
+h1.album{color:khaki;font-size:12pt;font-weight:normal;}
+h1.year{color:ivory;font-size:12pt}
+
+p.verse{font-family:"trebuchet ms";
+    color:gold;
+    margin-left:2cm;
+    margin-right:2cm;
+    font-weigth:bold;
+}
+p.chorus{font-family:"trebuchet ms";
+    font-weight:bold;
+    font-style:italic;
+    color:gold;
+    margin-left:2cm;
+    margin-right:2cm;
+}

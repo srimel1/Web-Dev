@@ -1,0 +1,15 @@
+BODY {
+    font-family : "times new roman";
+    margin-left : 20%;
+    margin-right: 20%;
+    text-align : justify;
+    background : ivory;
+    color : darkred;
+}
+P {
+    text-indent : 2cm;
+}
+h1,h2,h3{
+    color:red;
+    margin-left:2cm;
+}
