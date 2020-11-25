@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10px 0;
+  background: #6589F9;
+}
+
+.grid {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  box-shadow: 5px 4px 18px  black;
+  position: relative;
+  transition: all .4s linear;
+  transform-style: preserve-3d;
+  margin: 5px;
+}
+
+.card,
+.back,
+.front {
+  border: 2px solid black;
+  /*ox-shadow: 5px 10px;*/
+  height: 120px;
+  width: 120px;
+}
+
+.back,
+.front {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.front {
+  z-index: 2;
+  background: #4c0031 url('../images/quest.png') no-repeat center center / contain;
+}
+h1 {
+  color: #4c0031;
+  font-family: "Permanent Marker";
+  font-size: 32px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.back {
+  transform: rotateY(180deg);
+  background-color: #6589F9;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+a{
+  text-decoration: none;
+}
+
+.selected {
+  transform: rotateY(180deg);
+}
+
+.match .front {
+  background: #6589F9 !important;
+}
+
+
+

@@ -19,87 +19,143 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f60bbab-d563-4e90-b2a4-28328436d470" name="Default Changelist" comment="Web Programming Projects">
-      <change afterPath="$PROJECT_DIR$/.idea/STYLE.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/adv_tab1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/01 and 02/Activity6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/01 and 02/CW02.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/01 and 02/CW2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/01 and 02/Homeworks/01/ani.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/01 and 02/Homeworks/01/castle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/01 and 02/adv_tab1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/01 and 02/adv_tab2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/01 and 02/adv_tab3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/01 and 02/adv_tab4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/01 and 02/adv_tab5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/01 and 02/adv_tab6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/01 and 02/adv_tab7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/01 and 02/ex1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/01 and 02/ex2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/01 and 02/ex3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/01 and 02/ex4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/01 and 02/ex4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/01 and 02/ex6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/01 and 02/tab_ex1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/01 and 02/tab_ex2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/01 and 02/tab_ex3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/01 and 02/tab_ex4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/03/CW03.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/03/Homeworks/01/ani.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/03/Homeworks/01/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/03/Homeworks/01/castle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/03/Homeworks/01/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/03/Homeworks/01/me.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/03/Homeworks/01/myStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/03/example.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/03/puppy-mowgli.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/03/solution.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/03/solution.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/04/Ex1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/04/Ex2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/04/Ex3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/04/Ex4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/04/Ex5.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/04/Ex6.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/04/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/04/test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/05/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/05/script.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/06/buy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/06/buyagrade.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/06/buyagrade.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/06/suck.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Activities/06/sucker.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/01/ani.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/01/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/01/castle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/01/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/01/me.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/01/myStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/02/movie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/02/movie2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/02/tmnt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/02/tmnt2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/formtest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice/formtest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution_files/example.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution_files/solution.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmnt.html" afterDir="false" />
+    <list default="true" id="8f60bbab-d563-4e90-b2a4-28328436d470" name="Default Changelist" comment="CW6">
+      <change afterPath="$PROJECT_DIR$/Class Activities/06/suckers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class Activities/07/cw07.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class Activities/07/cw07.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class Activities/07/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/bottom.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/common.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/images/back.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/images/heart.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/images/heartbig.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/images/nerdluv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/images/signup.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/images/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/loginScripts/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/loginScripts/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/loginScripts/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/loginScripts/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/matches-submit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/matches.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/nerdieluv.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Ada Lovelace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Adele Goldberg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Alan Turing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Anakin Skywalker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Angry Video Game Nerd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Anita Borg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Barbara Liskov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Bill Gates.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Bill Joy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Bjarne Stroustroup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Borg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Buffy Summers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Charles Babbage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Dana Scully.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Deanna Troi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Donald Knuth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Edsger Dijkstra.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Ellen Ripley.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Frances Allen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Gordon Moore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Grace Hopper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Jadzia Dax.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/James Gosling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Jeannette Wing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Kathryn Janeway.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Lara Croft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Leeloo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Leia Organa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Lenore Blum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Marissa Mayer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Mary Lou Jepsen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Ms Frizzle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Natalie Portman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Niklaus Wirth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Nostalgia Critic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Nyota Uhura.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Oldspice Guy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Rasmus Lerdorf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Richard Stallman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/River Tam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Roberta Williams.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Rosie O Donnell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Sarah Connor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Seven of Nine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Stewie Griffin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Stuart Reges.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Tpol.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Trinity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Tyler Durden.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Valentina Tereshkova.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Vint Cerf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Yukihiro Matsumoto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/photo_easy2read/Zelda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/signup-submit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/signup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/singles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/singles.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/03/top.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/04/04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/04/C.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/04/css/board.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/04/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/04/images/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/04/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/04/images/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/04/images/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/04/images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/04/images/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/04/images/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/04/images/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/04/images/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/04/images/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/04/images/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/04/images/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/04/images/quest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/04/js/board.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/04/js/payrollProcess.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/04/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/04/junk/tab.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homeworks/04/junk/table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memory/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memory/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memory/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memory/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memory/css/style.prefix.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memory/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memory/img/1up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memory/img/blueshell.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memory/img/bobomb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memory/img/bulletbill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memory/img/coin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memory/img/goomba.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memory/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memory/img/luigi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memory/img/mario.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memory/img/mushroom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memory/img/peach.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memory/img/question.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memory/img/star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memory/img/thwomp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memory/img/wario.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memory/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../memory/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memory/js/script.babel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memory/js/script.original.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Class Activities/01 and 02/Homeworks/01/background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filethree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Class Activities/01 and 02/filethree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filetwo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Class Activities/01 and 02/filetwo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/format.html" beforeDir="false" afterPath="$PROJECT_DIR$/Class Activities/01 and 02/format.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/format2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Class Activities/01 and 02/format2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/format2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Class Activities/01 and 02/format2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Class Activities/01 and 02/Homeworks/01/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/me.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Class Activities/01 and 02/Homeworks/01/me.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/Class Activities/01 and 02/Homeworks/01/myStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class Activities/01 and 02/Homeworks/01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Class Activities/01 and 02/Homeworks/01/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class Activities/03/Homeworks/01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Class Activities/03/Homeworks/01/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class Activities/06/buy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class Activities/06/buyagrade.html" beforeDir="false" afterPath="$PROJECT_DIR$/Class Activities/06/buyagrade.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class Activities/06/suck.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class Activities/06/sucker.php" beforeDir="false" afterPath="$PROJECT_DIR$/Class Activities/06/sucker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/01/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,8 +168,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -130,24 +187,32 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../php/php.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../memory/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Stephanie\PhpstormProjects\untitled\Homeworks\04\junk" />
+      <recent name="C:\Users\Stephanie\PhpstormProjects\untitled\Homeworks\04\js" />
+      <recent name="C:\Users\Stephanie\PhpstormProjects\untitled\Homeworks\04\css" />
+      <recent name="C:\Users\Stephanie\PhpstormProjects\untitled\Homeworks\04" />
+      <recent name="C:\Users\Stephanie\PhpstormProjects\memory\img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Stephanie\PhpstormProjects\memory\img" />
+      <recent name="C:\Users\Stephanie\PhpstormProjects\untitled\Homeworks\03" />
       <recent name="C:\Users\Stephanie\PhpstormProjects\untitled\Homeworks\02" />
       <recent name="C:\Users\Stephanie\PhpstormProjects\untitled\Class Activities\01 and 02" />
       <recent name="C:\Users\Stephanie\PhpstormProjects\untitled\Class Activities\03" />
-      <recent name="C:\Users\Stephanie\PhpstormProjects\untitled\Homeworks\01" />
-      <recent name="C:\Users\Stephanie\PhpstormProjects\untitled\solution_files" />
     </key>
   </component>
   <component name="RunManager">
@@ -178,7 +243,12 @@
       <workItem from="1602901620092" duration="4419000" />
       <workItem from="1603159972735" duration="5646000" />
       <workItem from="1603332444188" duration="8897000" />
-      <workItem from="1603678780564" duration="6333000" />
+      <workItem from="1603678780564" duration="27078000" />
+      <workItem from="1604546007062" duration="606000" />
+      <workItem from="1604775496768" duration="1899000" />
+      <workItem from="1605118148891" duration="27023000" />
+      <workItem from="1605847201975" duration="2725000" />
+      <workItem from="1606101883209" duration="43442000" />
     </task>
     <task id="LOCAL-00001" summary="Web Programming Projects">
       <created>1600741841540</created>
@@ -187,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600741841540</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="CW6 without suckers.html">
+      <created>1603685224460</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603685224460</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,8 +283,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Web Programming Projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Web Programming Projects" />
+    <MESSAGE value="CW6 without suckers.html" />
+    <MESSAGE value="CW6" />
+    <option name="LAST_COMMIT_MESSAGE" value="CW6" />
   </component>
   <component name="WindowStateProjectService">
     <state x="350" y="68" key="#CLI_Interpreters" timestamp="1603160457186">
@@ -234,14 +314,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="225" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1600156591546" />
-    <state x="538" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601514051348">
+    <state x="538" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606115110982">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="538" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1601514051348" />
-    <state x="709" y="260" key="FileChooserDialogImpl" timestamp="1603160443526">
+    <state x="538" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1606115110982" />
+    <state x="500" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606119146230">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="709" y="260" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603160443526" />
+    <state x="500" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1606119146230" />
+    <state x="709" y="260" key="FileChooserDialogImpl" timestamp="1606112142409">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="709" y="260" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606112142409" />
     <state x="0" y="621" key="Github.ShareDialog" timestamp="1600741891298">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -250,29 +334,37 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="118" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600741714108" />
-    <state x="605" y="336" key="NewPhpFileDialog" timestamp="1603683859739">
+    <state x="605" y="336" key="NewPhpFileDialog" timestamp="1603765507943">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="605" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1603683859739" />
-    <state x="429" y="115" key="SettingsEditor" timestamp="1602902452033">
+    <state x="605" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1603765507943" />
+    <state x="429" y="115" key="SettingsEditor" timestamp="1606112157417">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="429" y="115" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602902452033" />
-    <state x="94" y="94" width="1349" height="637" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603684842523">
+    <state x="429" y="115" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1606112157417" />
+    <state x="94" y="94" width="1349" height="637" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1606102089567">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="94" y="94" width="1349" height="637" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1603684842523" />
+    <state x="94" y="94" width="1349" height="637" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1606102089567" />
     <state x="0" y="0" width="1158" height="572" key="dock-window-1" timestamp="1600156523891">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="0" width="1158" height="572" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1600156523891" />
-    <state x="338" y="242" key="run.anything.popup" timestamp="1603678065692">
+    <state x="477" y="12" width="582" height="801" key="find.popup" timestamp="1606116561566">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="338" y="242" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1603678065692" />
-    <state x="397" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1603337690219">
+    <state x="477" y="12" width="582" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1606116561566" />
+    <state x="543" y="287" width="689" height="526" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1606112155612">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="397" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1603337690219" />
+    <state x="543" y="287" width="689" height="526" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.824@0.0.1536.824" timestamp="1606112155612" />
+    <state x="340" y="242" width="672" height="677" key="run.anything.popup" timestamp="1606144813220">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="340" y="242" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1606144813220" />
+    <state x="398" y="144" width="672" height="678" key="search.everywhere.popup" timestamp="1606112091652">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="398" y="144" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1606112091652" />
   </component>
 </project>

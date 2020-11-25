@@ -1,0 +1,198 @@
+body {
+    font-family: "Permanent Marker";
+    font-size: 14pt;
+    color: #3cb6d4;
+    background-color: #0A3940;
+    text-align: left;
+}
+h1 {
+    width: 90%;
+
+    overflow: hidden;
+    text-align: center;
+    /*font-weight:250;*/
+    font-size: 20pt;
+    color: #3cb6d4;
+    margin-top: 0pt;
+    margin-left: .7em;
+    text-decoration: none;
+
+}
+h1:before, h1:after {
+    content: "";
+    display: inline-block;
+    width: 50%;
+    margin: 0 .5em 0 -55%;
+    vertical-align: middle;
+    border-bottom: 1px solid;
+    text-decoration: none;
+}
+h1:after {
+    margin: 0 -55% 0 .5em;
+    text-decoration: none;
+}
+span {
+    display: inline-block;
+    vertical-align: middle;
+    }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    background-color: white;
+}
+h2{
+    margin-left: 17%;
+    text-align: center;
+    background: rgb(255, 130, 130);
+    background: -moz-linear-gradient(left, rgb(60, 182, 212) 0%, rgb(225, 120, 237) 33%, rgb(255, 130, 130) 100%);
+    background: -webkit-linear-gradient(left, rgb(60, 182, 212) 0%, rgb(225, 120, 237) 33%, rgb(255, 130, 130) 100%);
+    background: linear-gradient(to right, rgb(60, 182, 212) 0%, rgb(225, 120, 237) 33%, rgb(255, 130, 130) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8282', endColorstr='#e178ed',GradientType=0 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;}
+p{
+    text-align: center;
+}
+.center {
+    text-align: center;
+    margin: 10px;
+}
+.button {
+    width: 90%;
+    font-family: "Permanent Marker";
+    background-color: #3cb6d4;
+    border: solid;
+    color: white;
+    border-radius: 20pt;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+p {
+    text-align: left;
+    padding-left: 3%;
+}
+
+.button:hover {opacity: 1}
+
+
+.container{
+    height:98px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+}
+
+.button {
+    text-align: center;
+    width: 100%;
+    /*font-family: "Permanent Marker";*/
+    border-radius: 20pt;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn {
+    text-align: center;
+    display: inline-block;
+    width: 80%;
+
+    height: 50px;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration:none;
+    font-family: "Permanent Marker";
+    font-weight:900;
+    font-size:17px;
+    letter-spacing: 0.045em;
+}
+
+.btn svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.btn svg rect {
+    stroke-width: 4;
+    stroke-dasharray: 353, 0;
+    stroke-dashoffset: 0;
+    -webkit-transition: all 600ms ease;
+    transition: all 600ms ease;
+}
+
+.btn span{
+    margin-left: 17%;
+    text-align: center;
+    background: rgb(255, 130, 130);
+    background: -moz-linear-gradient(left, rgb(60, 182, 212) 0%, rgb(225, 120, 237) 33%, rgb(255, 130, 130) 100%);
+    background: -webkit-linear-gradient(left, rgb(60, 182, 212) 0%, rgb(225, 120, 237) 33%, rgb(255, 130, 130) 100%);
+    background: linear-gradient(to right, rgb(60, 182, 212) 0%, rgb(225, 120, 237) 33%, rgb(255, 130, 130) 100%);
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8282', endColorstr='#e178ed',GradientType=0 );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+btn span1{
+    font-size: 40pt;
+    margin-left: 17%;
+    text-align: center;
+    background: rgb(255, 130, 130);
+    background: -moz-linear-gradient(left, rgb(60, 182, 212) 0%, rgb(225, 120, 237) 33%, rgb(255, 130, 130) 100%);
+    background: -webkit-linear-gradient(left, rgb(60, 182, 212) 0%, rgb(225, 120, 237) 33%, rgb(255, 130, 130) 100%);
+    background: linear-gradient(to right, rgb(60, 182, 212) 0%, rgb(225, 120, 237) 33%, rgb(255, 130, 130) 100%);
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8282', endColorstr='#e178ed',GradientType=0 );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn:hover svg rect {
+    stroke-width: 4;
+    stroke-dasharray: 196, 543;
+    stroke-dashoffset: 437;
+}
+
+
+
+.newspaper {
+    column-count: 2;
+    height: 100%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    column-fill: auto;
+    column-gap: 50pt;
+    column-rule: 4px double #3cb6d4;
+    border-radius: 25px;
+    border: 2px solid #3cb6d4;
+    padding: 20px;
+    column-fill: balance;
+    column-rule-style: dotted;
+    border: double;
+    column-rule-color: #3cb6d4;
+}
+
+

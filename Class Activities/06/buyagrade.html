@@ -2,60 +2,54 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Buy Your Way to a Better Education up in Here!</title>
-    <link href="./buyagrade.css" type="text/css" rel="stylesheet"/>
+    <link href="./buyagrade.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
 <h1>Buy Your Way to a Better Education up in Here!</h1>
 
 <p>
-    Life itself is your professor, and you are in a state of constant learning, now there are 3 kinds of people in the
-    world: people that can count and people that can't count. Which of the three are you?. That's right! All you need to
-    get a 4.0 in this course. My education is about learning what you didn't know even if know you that didn't know.
-    <br/><br/>
+    Life itself is your professor, and you are in a state of constant learning, now there are 3 kinds of people in the world: people that can count and people that can't count. Which of the three are you?.  That's right!  All you need to get a 4.0 in this course. My education is about learning what you didn't know even if know you that didn't know. <br/><br/>
 
-    'Do you need homework today I think so however the moment I forget to assign you homework there will be a scholar
-    student to utter loudly 'We have homework...'
+    'Do you need homework today I think so however the moment I forget to assign you homework there will be a scholar student to utter loudly 'We have homework...'
 
 </p>
 
+<hr />
 
-<hr/>
-
+<h2>Give us your money</h2>
 <form action="sucker.php" method="post">
-<h2>Give Us Your Money</h2>
-<dl>
-    <dt>Name</dt>
-    <dd>
-        <input name="name" type="text"/>
-    </dd>
+    <dl>
+        <dt>Name</dt>
+        <dd>
+            <input type="text" name="name" />
+        </dd>
 
-    <dt>Section</dt>
-    <dd>
-        <select name="section">
-            <option selected disabled>(Select a section)</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-            <option value="4">Four</option>
-            <option value="5">Five</option>
-        </select>
+        <dt>Section</dt>
+        <dd>
+            <select name="section">
+                <option value="">(Select a section)</option>
+                <option>S1</option>
+                <option>S2</option>
+                <option>S3</option>
+                <option>S4</option>
+                <option>S5</option>
+                <option>S6</option>
+                <option>S7</option>
+            </select>
+        </dd>
 
-    </dd>
+        <dt>Credit Card</dt>
+        <dd>
+            <input type="text" name="card_number" /><br />
+            <label><input type="radio" name="card" value="visa" />Visa</label>
+            <label><input type="radio" name="card" value="mastercard" />MasterCard</label>
+        </dd>
+    </dl>
 
-    <dt>Credit Card</dt>
-    <dd>
-        <input name="card_number" type="text"/><br>
-        <input type="radio" name="card" value="visa"  />Visa
-        <input type="radio" name="card" value="mastercard"  />Mastercard<br>
-    </dd>
-</dl>
-
-<div>
-
-    <input type="submit" value="I am a giant sucker.">
-</div>
+    <div>
+        <input type="submit" value="I am a giant sucker." />
+    </div>
 </form>
-</div>
 </body>
 </html>

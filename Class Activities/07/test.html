@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body{
+            background-color: #0A3940;
+        }
+        * {
+            box-sizing: border-box;
+            font-family: "Permanent Marker";
+            color: #000000;
+
+
+        }
+
+        /* Create three equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 10px;
+            height: 100%;
+            opacity: 30%;
+
+
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        h1{
+            color: #000000;
+            text-align: center;
+        }
+        h2{
+            text-align: left;
+        }
+    </style>
+
+    <script>
+        function changeColor(bgColor, textColor){
+            document.body.style.backgroundColor = bgColor;
+            document.body.style.color = textColor;
+        }
+    </script>
+
+</head>
+<body>
+<h1>Class Activity 07</h1>
+
+<div class="row">
+    <div class="column" style="background-color:#aaa;">
+        <h2>Fibonacci Sequence</h2>
+        <script type="text/javascript">
+            function fibo(n) {
+                if (n == 1) {
+                    return [0, 1];
+                } else {
+                    var s = fibo(n - 1);
+                    s.push(s[s.length - 1] + s[s.length - 2]);
+                    return s;
+                }
+            };
+            n = 8;
+            document.write("n = 8:<br>")
+            document.write(fibo(n - 1));
+        </script>
+        <br>
+        <h2>Star Pattern</h2>
+        <script type="text/javascript">
+            function star(rows) {
+                var i;
+                for (i = 1; i <= rows; i++) {
+
+                    for (j = 1; j <= i; j++) {
+                        document.write("*");
+                    }
+                    document.write("<br>")
+
+                }
+            };
+
+            n = 5;
+            star(n);
+        </script>
+
+
+
+    </div>
+    <div class="column" style="background-color:#bbb;">
+        <h2>Array Sort</h2>
+        <script>
+            var arr1 = [3, 8, 7, 6, 5, -4, 3, 2, 1];
+            document.write("Unsorted: " + arr1 + "<br>");
+            document.write("Sorted: " + arr1.sort() + "<br>");
+        </script>
+
+        <h2>Most Frequent Array Element</h2>
+        <script type="text/javascript">
+            function frequency(arr1) {
+                var occurences = 1;
+                var m = 0;
+                var element;
+                for (var i = 0; i < arr1.length; i++) {
+                    for (var j = i; j < arr1.length; j++) {
+                        if (arr1[i] == arr1[j])
+                            m++;
+                        if (occurences < m) {
+                            occurences = m;
+                            element = arr1[i];
+                        }
+                    }
+                    m = 0;
+                }
+                return document.write(element + " ( " + occurences + " times ) ");
+            }
+
+            var arr1 = [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+            document.write("Array: " + arr1 + "<br>");
+            frequency(arr1);
+        </script>
+
+
+    </div>
+    <h2>Array Shuffle</h2>
+    <script type="text/javascript">
+        var arr = [1, 2, 3, 4, 5, 6];
+
+        function shuffle(arr) {
+            return arr.sort(() => Math.random() - .5);
+        }
+
+        document.write("Unshuffled: " + arr + "<br>");
+        document.write("Shuffled: " + shuffle(arr) + "<br>");
+    </script>
+
+    <div class="column" style="background-color:#ccc;">
+<!--        <h2>Background and Text Color Prompt</h2>-->
+<!--        <script>-->
+<!--            var bgColor = prompt("Enter background color");-->
+<!--            var textColor = prompt("Enter text color");-->
+<!--            changeColor(bgColor, textColor);-->
+<!--        </script>-->
+    </div>
+</div>
+
+</body>
+</html>
