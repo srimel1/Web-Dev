@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>First Reaction</title>
+
+    <!-- Load React API -->
+    <script src="https://codd.cs.gsu.edu/~maljubori1/WP/scripts/react.min.js"></script>
+    <!-- Load React DOM -->
+    <script src="https://codd.cs.gsu.edu/~maljubori1/WP/scripts/react-dom.min.js"></script>
+    <!-- Load Babel Compiler -->
+    <script src="https://codd.cs.gsu.edu/~maljubori1/WP/scripts/babel.min.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+
+        <meta charset="utf-8">
+        <title> React Assignment 5</title>
+        <!-- Load React API -->
+        <script src="react.development.js"></script>
+        <!-- Load React DOM -->
+        <script src="react-dom.development.js"></script>
+        <!-- Load Babel Compiler -->
+        <script src="babel.min.js"></script>
+        <link rel="stylesheet" href="index.css">
+
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+
+</head>
+<body>
+
+<button class="mdc-button foo-button">
+    <div class="mdc-button__ripple"></div>
+    <span class="mdc-button__label">Button</span>
+</button>
+
+<script>mdc.ripple.MDCRipple.attachTo(document.querySelector('.foo-button'));</script>
+
+
+<div id="root"></root> <script type="text/babel">
+    class DisplayCustomer extends React.Component{
+        render(){
+            return <div><h1>Customer Details</h1>
+                <b>Name: {this.props.name}</b><br/>
+                <b>Email: {this.props.email}</b>
+                <DisplayAddress address={this.props.address}/>
+            </div>;
+        }
+    }
+    class DisplayAddress extends React.Component{
+        render(){
+            return <div><b>Address</b><br/>
+                Street:{this.props.address.street}<br/>
+                City:{this.props.address.city}
+            </div>
+        }
+    }
+    var address1 ={
+        street: "Spice Wood Springs",
+        city:"Atlanta"
+    };
+    var address2 ={
+        street: "Mira beach Blvd",
+        city:"Florida"
+    };
+    ReactDOM.render(
+        <div>
+            <DisplayCustomer name="John" email="john@gmail.com" address={address1}/>
+            <DisplayCustomer name="Bob" email="bob@gmail.com" address={address2}/> </div>
+        , document.getElementById("root"));
+</script>
+</body>
+</html>

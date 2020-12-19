@@ -1,0 +1,36 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+</head>
+<body>
+
+
+<script>mdc.ripple.MDCRipple.attachTo(document.querySelector('.foo-button'));</script>
+
+<div class="login">
+    <h1>Login</h1>
+    <form action="authenticate.php" method="post">
+        <label for="username">
+            <img src="user.png" width="20px" height="20px"/>
+        </label>
+        <input type="text" name="username" placeholder="Username" id="username" required>
+        <label for="password">
+            <img src="key.png" width="20px" height="20px"/>
+
+        </label>
+        <input type="password" name="password" placeholder="Password" id="password" required>
+        <input type="submit" value="Login">
+
+    </form>
+</div>
+<a href="register.php"><h3>Register</h3></a>
+</body>
+</html>

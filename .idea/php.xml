@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/../../../../php" />
+    </include_path>
+  </component>
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter id="f5576fb2-f90c-4c13-b97d-7f0ba8e8cd28" name="srimel1@codd.cs.gsu.edu:22:22 password" home="sshConfig://DATA" debugger_id="php.debugger.XDebug">
@@ -68,5 +73,61 @@
         </phpinfo>
       </interpreter>
     </phpInfoCache>
+  </component>
+  <component name="PhpRuntimeConfiguration">
+    <extensions>
+      <extension name="FFI" enabled="true" />
+      <extension name="Parle" enabled="true" />
+      <extension name="SaxonC" enabled="true" />
+      <extension name="ZendCache" enabled="true" />
+      <extension name="apache" enabled="false" />
+      <extension name="blackfire" enabled="true" />
+      <extension name="com_dotnet" enabled="true" />
+      <extension name="crypto" enabled="true" />
+      <extension name="dba" enabled="false" />
+      <extension name="ds" enabled="true" />
+      <extension name="event" enabled="true" />
+      <extension name="exif" enabled="false" />
+      <extension name="expect" enabled="true" />
+      <extension name="fileinfo" enabled="false" />
+      <extension name="ftp" enabled="false" />
+      <extension name="gd" enabled="false" />
+      <extension name="intl" enabled="false" />
+      <extension name="leveldb" enabled="true" />
+      <extension name="lua" enabled="true" />
+      <extension name="lzf" enabled="true" />
+      <extension name="mapscript" enabled="true" />
+      <extension name="mbstring" enabled="false" />
+      <extension name="meminfo" enabled="true" />
+      <extension name="msgpack" enabled="true" />
+      <extension name="parallel" enabled="true" />
+      <extension name="pcntl" enabled="false" />
+      <extension name="pcov" enabled="true" />
+      <extension name="phpdbg" enabled="true" />
+      <extension name="posix" enabled="false" />
+      <extension name="pq" enabled="true" />
+      <extension name="rdkafka" enabled="true" />
+      <extension name="rpminfo" enabled="true" />
+      <extension name="shmop" enabled="false" />
+      <extension name="sockets" enabled="false" />
+      <extension name="solr" enabled="true" />
+      <extension name="sqlite3" enabled="false" />
+      <extension name="stats" enabled="true" />
+      <extension name="stomp" enabled="true" />
+      <extension name="sync" enabled="true" />
+      <extension name="sysvmsg" enabled="false" />
+      <extension name="sysvsem" enabled="false" />
+      <extension name="sysvshm" enabled="false" />
+      <extension name="uopz" enabled="true" />
+      <extension name="uuid" enabled="true" />
+      <extension name="uv" enabled="true" />
+      <extension name="winbinder" enabled="true" />
+      <extension name="xcache" enabled="true" />
+      <extension name="xmlrpc" enabled="false" />
+      <extension name="xxtea" enabled="true" />
+      <extension name="yaf" enabled="true" />
+      <extension name="yar" enabled="true" />
+      <extension name="zookeeper" enabled="true" />
+    </extensions>
   </component>
 </project>

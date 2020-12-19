@@ -1,0 +1,19 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "first one",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srimel1/WP.git"
+  },
+  "author": "stephanie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srimel1/WP/issues"
+  },
+  "homepage": "https://github.com/srimel1/WP#readme"
+}
