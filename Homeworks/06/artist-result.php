@@ -152,14 +152,14 @@ if (!isset($_SESSION['loggedin'])) {
         </tr>
         <?php
         require_once "config.php";
-        $conn = mysqli_connect("localhost", "srimel1", "srimel1", "srimel1");
+        $con = mysqli_connect("localhost", "srimel1", "srimel1", "srimel1");
         // Check connection
-        if ($conn->connect_error) {
-            die("Connection failed: " . $conn->connect_error);
+        if ($con->connect_error) {
+            die("Connection failed: " . $con->connect_error);
         }
         $search = $_POST("name");
         $sql = "SELECT id,name, gender,dob,genre FROM artist where name='$search'";
-        $result = $conn->query($sql);
+        $result = $con->query($sql);
         session_start();
         // If the user is not logged in redirect to the login page...
         if (!isset($_SESSION['loggedin'])) {
@@ -176,7 +176,7 @@ if (!isset($_SESSION['loggedin'])) {
         } else {
             echo "0 results";
         }
-        $conn->close();
+        $con->close();
         ?>
     </table>
 </body>

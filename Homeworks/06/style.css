@@ -151,7 +151,7 @@ h3, a:hover {
 
 .navtop {
     font-family: 'Pacifico';
-
+    border-radius: 0;
     background-color: #94316e;
     height: 60px;
     width: 100%;
@@ -159,6 +159,8 @@ h3, a:hover {
 }
 
 .navtop div {
+    border-radius: 0;
+
     display: flex;
     margin: 0 auto;
     width: 1000px;
@@ -166,6 +168,8 @@ h3, a:hover {
 }
 
 .navtop div h1, .navtop div a {
+    border-radius: 0;
+
     display: inline-flex;
     align-items: center;
 }
@@ -173,6 +177,8 @@ h3, a:hover {
 .navtop div h1 {
     flex: 1;
     font-size: 20pt;
+    border-radius: 0;
+
     padding: 0;
     margin: 0;
     color: #ff8b36;
@@ -182,6 +188,8 @@ h3, a:hover {
 .navtop div a {
     font-size: 20pt;
     padding: 0 20px;
+    border-radius: 0;
+
     text-decoration: none;
     color: #ff8b36;
     font-weight: bold;
@@ -194,9 +202,9 @@ h3, a:hover {
 /*    font-weight: bold;*/
 /*}*/
 
-.navtop div a i {
-    padding: 2px 8px 0 0;
-}
+/*.navtop div a i {*/
+/*    padding: 2px 8px 0 0;*/
+/*}*/
 
 .navtop div a:hover {
     color: #580935;

@@ -1,4 +1,5 @@
 <?php
+require_once "config.php";
 // We need to use sessions, so you should always start sessions using the below code.
 $has_session = session_status() == PHP_SESSION_ACTIVE;
 if($has_session != 1){

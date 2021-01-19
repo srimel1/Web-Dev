@@ -19,99 +19,47 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f60bbab-d563-4e90-b2a4-28328436d470" name="Default Changelist" comment="CW6">
-      <change afterPath="$PROJECT_DIR$/Homeworks/05/babel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/05/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/05/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/05/react-dom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/05/react.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/04.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/Test/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/Test/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/Test/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/Test/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/Test/register.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/Test/reset-password.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/Test/welcome.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/add-album.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/add-artist.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/album.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/artist-result.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/calendar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/circular-line-with-word-age-in-the-center.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/conf.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/conn.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/createTables.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/display-album.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/display-artist.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/dj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/email.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/error" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/gender.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/insert.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/key.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/log-out.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/log.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/magnifier.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/microphone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/activate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/add-album.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/add-artist.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/display-album.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/display-artist.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/profile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/register.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/search-album.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/search-artist.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/search.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/welcome.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/welcome.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/profile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/reg.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/register.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/register1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/s.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/search-album.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/search-artist.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/search.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/sheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/te.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/tester.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/tester2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/testing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homeworks/06/welcome.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solution_files/movie.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Web Programming.iml" afterDir="false" />
+    <list default="true" id="8f60bbab-d563-4e90-b2a4-28328436d470" name="Default Changelist" comment="Web Programming">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/02/movie.css" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/02/movie.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/02/tmnt.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/02/tmnt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie.css" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/05/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmnt.html" beforeDir="false" afterPath="$PROJECT_DIR$/solution_files/tmnt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/Test/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/Test/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/Test/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/Test/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/add-album.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/add-album.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/add-artist.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/add-artist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/artist-result.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/artist-result.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/conf.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/conf.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/conn.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/conn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/createTables.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/createTables.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/display-album.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/display-album.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/display-artist.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/display-artist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/insert.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/phplogin/activate.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/activate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/phplogin/add-album.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/add-album.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/phplogin/add-artist.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/add-artist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/phplogin/authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/phplogin/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/phplogin/display-album.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/display-album.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/phplogin/display-artist.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/display-artist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/phplogin/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/phplogin/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/phplogin/search-album.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/search-album.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/phplogin/search-artist.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/search-artist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/phplogin/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/phplogin/search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/reg.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/reg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/search-album.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/search-album.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/search-artist.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/search-artist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/tester.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/tester.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/tester2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/tester2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homeworks/06/testing.php" beforeDir="false" afterPath="$PROJECT_DIR$/Homeworks/06/testing.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,19 +114,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Stephanie\PhpstormProjects\untitled\Homeworks\02" />
-      <recent name="C:\Users\Stephanie\PhpstormProjects\untitled\solution_files" />
-      <recent name="C:\Users\Stephanie\PhpstormProjects\untitled\Homeworks\04\junk" />
-      <recent name="C:\Users\Stephanie\PhpstormProjects\untitled\Homeworks\04\js" />
-      <recent name="C:\Users\Stephanie\PhpstormProjects\untitled\Homeworks\04\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Stephanie\PhpstormProjects\untitled\Homeworks\06" />
       <recent name="C:\Users\Stephanie\PhpstormProjects\untitled\Homeworks\05" />
       <recent name="C:\Users\Stephanie\PhpstormProjects\untitled\solution_files" />
       <recent name="C:\Users\Stephanie\PhpstormProjects\untitled\Homeworks\02\03" />
       <recent name="C:\Users\Stephanie\PhpstormProjects\memory\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Stephanie\PhpstormProjects\untitled\Homeworks\02" />
+      <recent name="C:\Users\Stephanie\PhpstormProjects\untitled\solution_files" />
+      <recent name="C:\Users\Stephanie\PhpstormProjects\untitled\Homeworks\04\junk" />
+      <recent name="C:\Users\Stephanie\PhpstormProjects\untitled\Homeworks\04\js" />
+      <recent name="C:\Users\Stephanie\PhpstormProjects\untitled\Homeworks\04\css" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -234,7 +182,11 @@
       <workItem from="1607789200848" duration="661000" />
       <workItem from="1607790092078" duration="670000" />
       <workItem from="1607791465583" duration="76843000" />
-      <workItem from="1608134609015" duration="13555000" />
+      <workItem from="1608134609015" duration="13910000" />
+      <workItem from="1609915851717" duration="1659000" />
+      <workItem from="1610686523656" duration="4781000" />
+      <workItem from="1611012904677" duration="51000" />
+      <workItem from="1611013186699" duration="4728000" />
     </task>
     <task id="LOCAL-00001" summary="Web Programming Projects">
       <created>1600741841540</created>
@@ -257,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606272174813</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Web Programming">
+      <created>1608418022965</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608418022965</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +239,8 @@
     <MESSAGE value="Web Programming Projects" />
     <MESSAGE value="CW6 without suckers.html" />
     <MESSAGE value="CW6" />
-    <option name="LAST_COMMIT_MESSAGE" value="CW6" />
+    <MESSAGE value="Web Programming" />
+    <option name="LAST_COMMIT_MESSAGE" value="Web Programming" />
   </component>
   <component name="WindowStateProjectService">
     <state x="350" y="68" key="#CLI_Interpreters" timestamp="1607788689915">
@@ -307,10 +267,6 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="405" y="5" key="#SSH_Configurations/0.0.1536.824@0.0.1536.824" timestamp="1602905906696" />
-    <state x="669" y="278" width="659" height="268" key="#Vim_Emulation" timestamp="1600155757091">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="669" y="278" width="659" height="268" key="#Vim_Emulation/0.0.1536.824@0.0.1536.824" timestamp="1600155757091" />
     <state x="555" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608088420616">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -331,18 +287,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1536.824@0.0.1536.824" timestamp="1607771959835" />
-    <state x="709" y="260" key="FileChooserDialogImpl" timestamp="1607788684803">
+    <state x="709" y="260" key="FileChooserDialogImpl" timestamp="1610691499571">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="709" y="260" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607788684803" />
-    <state x="0" y="621" key="Github.ShareDialog" timestamp="1600741891298">
+    <state x="709" y="260" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1610691499571" />
+    <state x="720" y="331" key="Github.ShareDialog" timestamp="1610686594858">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="0" y="621" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1600741891298" />
-    <state x="574" y="118" key="Github.UntrackedFilesDialog" timestamp="1600741714108">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="574" y="118" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600741714108" />
+    <state x="720" y="331" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1610686594858" />
     <state width="980" height="34" key="GridCell.Tab.0.bottom" timestamp="1607781368496">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -372,10 +324,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="312" y="115" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1607789015251" />
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1606272268267">
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1608418038453">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606272268267" />
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608418038453" />
     <state x="864" y="348" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1607773129021">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -388,22 +340,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="94" y="94" width="1349" height="637" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1608383681904" />
-    <state x="0" y="0" width="1158" height="572" key="dock-window-1" timestamp="1600156523891">
+    <state x="937" y="23" width="582" height="801" key="find.popup" timestamp="1611015537720">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="0" y="0" width="1158" height="572" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1600156523891" />
-    <state x="477" y="12" width="582" height="801" key="find.popup" timestamp="1608416060083">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="477" y="12" width="582" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1608416060083" />
+    <state x="937" y="23" width="582" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1611015537720" />
     <state x="543" y="287" width="689" height="526" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1606112155612">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="543" y="287" width="689" height="526" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.824@0.0.1536.824" timestamp="1606112155612" />
-    <state x="362" y="242" width="672" height="677" key="run.anything.popup" timestamp="1608416485104">
+    <state x="366" y="242" width="672" height="677" key="run.anything.popup" timestamp="1611018957886">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="362" y="242" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1608416485104" />
+    <state x="366" y="242" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1611018957886" />
     <state x="398" y="144" width="672" height="678" key="search.everywhere.popup" timestamp="1607564626828">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

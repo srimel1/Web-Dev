@@ -1,11 +1,11 @@
 <?php
 
     $servername='localhost';
-    $username='root';
-    $password='uber';
-    $dbname = "Web Programming";
-    $conn=mysqli_connect($servername,$username,$password,"$dbname");
-      if(!$conn){
+    $username='srimel1';
+    $password='srimel1';
+    $dbname = "srimel1";
+    $con=mysqli_connect($servername,$username,$password,"$dbname");
+      if(!$con){
           die('Could not Connect MySql Server:' .mysql_error());
       }
 
@@ -18,10 +18,10 @@ email VARCHAR(100),
 primary key (id));
 ";
 
-if ($conn->query($sql) === TRUE) {
+if ($con->query($sql) === TRUE) {
     echo "Table accounts created successfully";
 } else {
-    echo "Error creating table: " . $conn->error;
+    echo "Error creating table: " . $con->error;
 }
 
 
@@ -32,13 +32,13 @@ $sql2 = "INSERT INTO `Web Programming`.accounts (username,password,email)
      VALUES ('ste','ste@ste.com','stestte')";
 
 
-if (mysqli_query($conn, $sql)) {
+if (mysqli_query($con, $sql)) {
     echo "New record has been added successfully !";
 } else {
-    echo "Error: " . $sql . ":-" . mysqli_error($conn);
+    echo "Error: " . $sql . ":-" . mysqli_error($con);
 }
 //mysqli_close($conn);
 
-$conn->close();
+$con->close();
 
 ?>

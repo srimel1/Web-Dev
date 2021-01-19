@@ -57,16 +57,16 @@ if (!isset($_SESSION['loggedin'])) {
 VALUES ('$name', '$artist', '$year', '$genre')";
 
         $message = " ";
-        if ($conn->query($sql) === TRUE) {
+        if ($con->query($sql) === TRUE) {
             $message = "New record created successfully";
             echo $message;
         } else {
-            $message = "Error: " . $sql . "<br>" . $conn->error;
+            $message = "Error: " . $sql . "<br>" . $con->error;
             echo $message;
         }
     }
 
-    $conn->close();
+    $con->close();
     ?></h1><br>
 <a href="display-album.php"><h1>View All Records</h1></a>
 <div class="alb">

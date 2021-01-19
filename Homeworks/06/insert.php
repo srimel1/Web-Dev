@@ -29,15 +29,15 @@
 
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "uber";
-$dbname = "Web Programming";
+$username = "srimel1";
+$password = "srimel1";
+$dbname = "srimel1";
 
 // Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+$con = new mysqli($servername, $username, $password, $dbname);
 // Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+if ($con->connect_error) {
+    die("Connection failed: " . $con->connect_error);
 }
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {//Check it is coming from a form
@@ -50,14 +50,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {//Check it is coming from a form
     $sql = "INSERT INTO artist (name, gender, dob, genre)
 VALUES ('$name', '$gender', '$dob', '$genre')";
 
-    if ($conn->query($sql) === TRUE) {
+    if ($con->query($sql) === TRUE) {
         echo "New record created successfully";
     } else {
-        echo "Error: " . $sql . "<br>" . $conn->error;
+        echo "Error: " . $sql . "<br>" . $con->error;
     }
 }
 
-$conn->close();
+$con->close();
 ?>
 
 

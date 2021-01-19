@@ -1,15 +1,15 @@
 <?php
 $dbServerName = "localhost";
-$dbUsername = "root";
-$dbPassword = "uber";
-$dbName = "Web Programming";
+$dbUsername = "srimel1";
+$dbPassword = "srimel1";
+$dbName = "srimel1";
 
 // create connection
-$conn = new mysqli($dbServerName, $dbUsername, $dbPassword, $dbName);
+$con = new mysqli($dbServerName, $dbUsername, $dbPassword, $dbName);
 
 // check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+if ($con->connect_error) {
+    die("Connection failed: " . $con->connect_error);
 }
 //echo "Connected successfully";
 ?>
@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $sql = "SELECT id FROM artist WHERE name = ?";
 
 
-        if ($stmt = mysqli_prepare($conn, $sql)) {
+        if ($stmt = mysqli_prepare($cnn, $sql)) {
             // Bind variables to the prepared statement as parameters
             mysqli_stmt_bind_param($stmt, "s", $param_name);
 
@@ -88,7 +88,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $sql = "INSERT INTO `Web Programming`.artist (name,gender,dob,genre)
      VALUES ('$name','$gender','$dob','$genre')";
 
-        if ($stmt = mysqli_prepare($conn, $sql)) {
+        if ($stmt = mysqli_prepare($con, $sql)) {
             // Bind variables to the prepared statement as parameters
             mysqli_stmt_bind_param($stmt, "ss", $param_name, $param_gender, $param_dob, $param_genre);
 
@@ -112,7 +112,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Close connection
-    mysqli_close($conn);
+    mysqli_close($con);
 }
 ?>
 

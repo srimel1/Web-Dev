@@ -152,7 +152,7 @@ if($has_session != 1){
             exit;
         }
         $sql = "SELECT id,name, artist,year,genre FROM album";
-        $result = $conn->query($sql);
+        $result = $con->query($sql);
         if ($result->num_rows > 0) {
 
             while ($row = $result->fetch_assoc()) {
@@ -162,7 +162,7 @@ if($has_session != 1){
         } else {
             echo "0 results";
         }
-        $conn->close();
+        $con->close();
         ?>
     </table>
 </body>

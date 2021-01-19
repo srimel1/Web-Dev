@@ -163,7 +163,7 @@ if (!isset($_SESSION['loggedin'])) {
         //            die("Connection failed: " . $conn->connect_error);
         //        }
         $sql = "SELECT id,name, gender,dob,genre FROM artist";
-        $result = $conn->query($sql);
+        $result = $con->query($sql);
         if ($result->num_rows > 0) {
 
             while ($row = $result->fetch_assoc()) {
@@ -173,7 +173,7 @@ if (!isset($_SESSION['loggedin'])) {
         } else {
             echo "0 results";
         }
-        $conn->close();
+        $con->close();
         ?>
     </table>
 </body>

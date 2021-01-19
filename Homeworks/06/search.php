@@ -18,14 +18,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {//Check it is coming from a form
 
     $sql = "SELECT * FROM album (name,artist,year,genre) WHERE name='$name'";
 
-    if ($conn->query($sql) === TRUE) {
+    if ($con->query($sql) === TRUE) {
         echo "<center><font color='#ff8b36'>New record created successfully";
     } else {
-        echo "Error: " . $sql . "<br>" . $conn->error;
+        echo "Error: " . $sql . "<br>" . $con->error;
     }
 }
 
-$conn->close();
+$con->close();
 ?>
 
 <html>

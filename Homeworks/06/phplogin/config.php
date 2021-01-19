@@ -1,15 +1,15 @@
 <?php
 $dbServerName = "localhost";
-$dbUsername = "root";
-$dbPassword = "uber";
-$dbName = "Web Programming";
+$dbUsername = "srimel1";
+$dbPassword = "srimel1";
+$dbName = "srimel1";
 
 // create connection
-$conn = new mysqli($dbServerName, $dbUsername, $dbPassword, $dbName);
+$con = new mysqli($dbServerName, $dbUsername, $dbPassword, $dbName);
 
 // check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+if ($con->connect_error) {
+    die("Connection failed: " . $con->connect_error);
 }
 //echo "Connected successfully";
 

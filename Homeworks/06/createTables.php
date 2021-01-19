@@ -8,8 +8,8 @@ require_once ("config.php");
 // Create connection
 //$conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+if ($con->connect_error) {
+    die("Connection failed: " . $con->connect_error);
 }
 
 // sql to create table
@@ -43,11 +43,11 @@ primary key (id));
 ";
 
 
-if ($conn->query($sql) === TRUE && $conn->query($sql_album) === TRUE && $conn->query($sql_artist) === TRUE) {
+if ($con->query($sql) === TRUE && $con->query($sql_album) === TRUE && $con->query($sql_artist) === TRUE) {
     echo "Table accounts created successfully";
 } else {
-    echo "Error creating table: " . $conn->error;
+    echo "Error creating table: " . $con->error;
 }
 
-$conn->close();
+$con->close();
 ?>

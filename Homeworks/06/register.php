@@ -1,6 +1,23 @@
 <?php
 // Include config file
-require_once "config.php";
+//require_once "config.php";
+
+
+/* Database credentials. Assuming you are running MySQL
+server with default setting (user 'root' with no password) */
+define('DB_SERVER', 'localhost');
+define('DB_USERNAME', 'srimel1');
+define('DB_PASSWORD', 'srimel1');
+define('DB_NAME', 'srimel1');
+
+/* Attempt to connect to MySQL database */
+$con = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+
+// Check connection
+if ($con === false) {
+    die("ERROR: Could not connect. " . mysqli_connect_error());
+}
+
 
 // Define variables and initialize with empty values
 $username = $password = $confirm_password = $email = "";
@@ -17,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $sql = "SELECT id FROM accounts WHERE username = ?";
 
 
-        if ($stmt = mysqli_prepare($conn, $sql)) {
+        if ($stmt = mysqli_prepare($con, $sql)) {
             // Bind variables to the prepared statement as parameters
             mysqli_stmt_bind_param($stmt, "s", $param_username);
 
@@ -48,7 +65,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } elseif (strlen(trim($_POST["email"])) < 6) {
         $email_err = "Email must have atleast 6 characters.";
     } else {
-        $email= trim($_POST["email"]);
+        $email = trim($_POST["email"]);
     }
 
     // Validate password
@@ -74,13 +91,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($username_err) && empty($password_err) && empty($confirm_password_err)) {
 
         // Prepare an insert statement
-//        $sql = "INSERT INTO accounts (id, username, password, email) VALUES (?, ?, ?, ?)";
-        $sql = "INSERT INTO `srimel1`.accounts (username,password,email)
+//        $sql = "INSERT INTO `srimel1`.accounts (id, username, password, email) VALUES (?, ?, ?, ?)";
+        $sql = "INSERT INTO accounts(username,password,email)
      VALUES ('$username','$password','$email')";
 
-        if ($stmt = mysqli_prepare($conn, $sql)) {
+        if ($stmt = mysqli_prepare($con, $sql)) {
             // Bind variables to the prepared statement as parameters
-            mysqli_stmt_bind_param($stmt, "ss", $param_username, $param_password, $param_email);
+            mysqli_stmt_bind_param($stmt, "s", $param_username, $param_password, $param_email);
 
             // Set parameters
             $param_username = $username;
@@ -101,7 +118,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Close connection
-    mysqli_close($conn);
+    mysqli_close($con);
 }
 ?>
 
@@ -111,7 +128,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="utf-8">
     <title>Login</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link href="style.css" rel="stylesheet" type="text/css">
@@ -127,23 +143,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <h1>Register</h1>
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
         <label for="username"><img src="user.png" width="20px" height="20px"/></label>
-        <input type="text" name="username" placeholder="Username" id="username" required value="<?php echo $username; ?>">
+        <input type="text" name="username" placeholder="Username" id="username" required
+               value="<?php echo $username; ?>">
         <span class="help-block"><?php echo $username_err; ?></span>
         <label for="password"><img src="key.png" width="20px" height="20px"/></label>
-        <input type="password" name="password" placeholder="Password" id="password" required value="<?php echo $password; ?>">
+        <input type="password" name="password" placeholder="Password" id="password" required
+               value="<?php echo $password; ?>">
         <span class="help-block"><?php echo $password_err; ?></span>
         <label for="confirm_password"><img src="key.png" width="20px" height="20px"/></label>
-        <input type="password" name="confirm_password" placeholder="confirm Password" id="confirm_password" required value="<?php echo $confirm_password; ?>">
+        <input type="password" name="confirm_password" placeholder="confirm Password" id="confirm_password" required
+               value="<?php echo $confirm_password; ?>">
         <span class="help-block"><?php echo $confirm_password_err; ?></span>
         <label for="email"><img src="email.png" width="20px" height="20px"/></label>
-        <input type="email" name="email" placeholder="email" id="email"  required value="<?php echo $email; ?>">
+        <input type="email" name="email" placeholder="email" id="email" required value="<?php echo $email; ?>">
         <span class="help-block"><?php echo $email_err; ?></span>
         <input type="submit" class="btn btn-primary" value="Sign Up">
     </form>
 </div>
 <a href="index.html"><h3>Log In</h3></a>
-
-
 
 
 </body>

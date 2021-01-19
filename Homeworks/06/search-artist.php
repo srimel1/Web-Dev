@@ -179,7 +179,7 @@ if (!isset($_SESSION['loggedin'])) {
         //echo $search;
 
         $sql = "SELECT id,name, gender,dob,genre FROM artist where name='$search'";
-        $result = $conn->query($sql);
+        $result = $con->query($sql);
         if ($result->num_rows > 0) {
 
             while ($row = $result->fetch_assoc()) {
@@ -189,7 +189,7 @@ if (!isset($_SESSION['loggedin'])) {
         } else {
             echo "<h3>0 results</h3>";
         }
-        $conn->close();
+        $con->close();
         ?>
     </table>
     <h3><a href="search.php">Search Again</a></h3>

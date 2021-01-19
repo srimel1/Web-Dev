@@ -2,7 +2,7 @@
 session_start();
 $message="";
 if(count($_POST)>0) {
-    $con = mysqli_connect('localhost','root','uber','Web Programming') or die('Unable To connect');
+    $con = mysqli_connect('localhost','srimel1','srimel1','srimel1') or die('Unable To connect');
     $result = mysqli_query($con,"SELECT * FROM accounts WHERE username='" . $_POST["username"] . "' and password = '". $_POST["password"]."'");
     $row  = mysqli_fetch_array($result);
     if(is_array($row)) {

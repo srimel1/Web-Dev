@@ -146,7 +146,7 @@ include "header.php";
         //            die("Connection failed: " . $conn->connect_error);
         //        }
         $sql = "SELECT id,name, gender,dob,genre FROM artist";
-        $result = $conn->query($sql);
+        $result = $con->query($sql);
         if ($result->num_rows > 0) {
 
             while ($row = $result->fetch_assoc()) {
@@ -156,7 +156,7 @@ include "header.php";
         } else {
             echo "0 results";
         }
-        $conn->close();
+        $con->close();
         ?>
     </table>
 </body>
